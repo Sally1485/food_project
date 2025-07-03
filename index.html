@@ -13,8 +13,9 @@
 </head>
 
 <body class="m-0 p-0">
-    <header class="bg-[url(/images/bg.jpg)] bg-cover bg-center sm:h-[70vh] md:h-screen py-2 py-4 px-16">
-        <nav class="bg-white flex justify-around p-4 sm:m-2 md:m-8 items-center">
+    <header class="bg-[url(./images/bg.jpg)]  relative bg-cover bg-center sm:h-[70vh] md:h-screen py-2 py-4 px-16">
+        <div class="bg-black absolute inset-0 bg-black opacity-50"></div>
+        <nav class="relative bg-white z-10 flex justify-around p-4 sm:m-2 md:m-8 items-center">
             <div>
                 <a href="#">
                     <img src="./Images/logo.png" class="w-24" alt="food logo">
@@ -52,7 +53,7 @@
 
 
 
-        <div class="text-white flex flex-col text-center sm:h-[70vh] md:h-[70vh] justify-center md:text-xl
+        <div class=" relative z-10 flex flex-col text-white text-center sm:h-[70vh] md:h-[70vh] justify-center md:text-xl
         ">
             <p class="uppercase md:text-3xl text-sm pt-4">the most interesting food in the world</p>
             <h1 class="md:text-5xl text-2xl  pt-4"> <span class="italic">Discover</span> the <span class="text-[#FFB606]">flavors</span>
@@ -162,11 +163,12 @@
     </section>
 
     <section>
-        <div class="bg-[url(/images/reservation-bg.jpg)] bg-center  bg-cover h-[50vh] ">
+        <div class="bg-[url(/images/reservation-bg.jpg)] relative bg-center  bg-cover h-[50vh] ">
+            <div class="bg-black absolute inset-0 bg-black opacity-50"></div>
             <div class="flex flex-col pt-30 items-center justify-center">
-                <h2 class="text-white text-3xl font-bold">Natural Ingredients and testy food</h2>
-                <p class="text-white text-2xl italics pt-8">Some Trendy and Popular Courses Offered</p>
-                <button class="bg-[#FFB606] rounded px-6 py-4 mt-4 ">Reservation</button>
+                <h2 class="text-white text-3xl font-bold relative z-10">Natural Ingredients and testy food</h2>
+                <p class="text-white text-2xl italics pt-8 relative z-10">Some Trendy and Popular Courses Offered</p>
+                <button class="bg-[#FFB606] rounded px-6 py-4 mt-4 relative z-10">Reservation</button>
             </div>
         </div>
     </section>
@@ -235,11 +237,12 @@
         </div>
     </section>
     <section class="pt-36">
-        <div class="bg-[url(/images/testimonial-bg.jpg)] bg-cover bg-center h-[40vh]   ">
+        <div class="bg-[url(/images/testimonial-bg.jpg)] relative bg-cover bg-center h-[40vh] ">
+            <div class="bg-black opacity-50 inset-0 absolute"></div>
             <div class="pt-20">
-                <h2 class="text-5xl text-center font-bold text-white">Customer <span class="text-[#FFB606]">says</span>
+                <h2 class="text-5xl text-center font-bold text-white relative z-10">Customer <span class="text-[#FFB606]">says</span>
                 </h2>
-                <p class="italic text-center text-white">Beast kind form divide night above let moveth bearing darkness.
+                <p class="italic text-center text-white relative z-10">Beast kind form divide night above let moveth bearing darkness.
                 </p>
             </div>
         </div>
@@ -292,8 +295,9 @@
         </div>
     </section>
     <footer class=" pt-6">
-        <div class="bg-[url(/images/table-bg.jpg)] bg-cover bg-center h-[70vh]">
-            <div class="text-white text-center pt-30 flex flex-row justify-around">
+        <div class="bg-[url(/images/table-bg.jpg)] bg-cover bg-center relative h-[70vh]">
+            <div class="bg-[#434950] opacity-50 inset-0 absolute"></div>
+            <div class="text-white text-center pt-30 flex flex-row justify-around relative z-10">
                 <div>
                     <input type="datetime-local" name="" id="">
                 </div>
@@ -304,11 +308,12 @@
                     <input type="image" src="" alt="">
                 </div>
             </div>
-            <button class="bg-[#FFB606] px-6 py-2 items-center rounded flex justify-center w-[10%] mx-auto mt-6">Book A
+            <button class="bg-[#FFB606] px-6 py-2 items-center rounded flex justify-center w-[10%] mx-auto mt-6 relative z-10">Book A
                 Table</button>
         </div>
-        <div class="bg-[#131230] flex flex-row justify-around items-center h-[70vh] ">
-            <div>
+        <div class="bg-[#131230] flex flex-row justify-around items-center relative h-[70vh] ">
+            <div class="bg-[#434950] opacity-50 inset-0 absolute"></div>
+            <div class="relative z-10">
                 <div class="flex items-center gap-2  ">
                     <img src="./Images/logo.png" class="w-24" alt="">
                     <h2 class="text-white text-3xl ml-2 ">Food Fun</h2>
@@ -317,7 +322,7 @@
                     deep, herb set  seed land divide after over first creeping. <br> First creature set upon stars deep male
                     gathered said she'd an image spirit our</p>
             </div>
-            <div>
+            <div class="relative z-10">
                 <h1 class=" text-3xl text-[#FFB606] font-bold p-4">Contact Us</h1>
                 <span class="text-white">
                     <i class="material-icons text-white">explore</i>
@@ -332,7 +337,7 @@
                     <p class="text-white text-xl">support@axiomthemes.com</p>
                 </span>
             </div>
-            <div class="text-white ">
+            <div class="text-white relative z-10 ">
                 <h1 class="text-3xl text-[#FFB606] p-4 font-bold">Opening Hours</h1>
                <div class="flex flex-col gap-4 text-xl">
                  <p>Monday.......closed</p>
